@@ -1,0 +1,32 @@
+#box{
+    background-color: #feb414 !important;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    #aboutContent {
+        margin-left: 4rem !important;
+        margin-top: 1rem !important;
+    }
+    #aboutImg{
+        width: 95% !important;
+        margin-left: 2rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #aboutImg{
+        width: 95% !important;
+        margin-left: 1.5rem !important;
+    }
+    #aboutContent{
+
+        margin-left: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px]*/
+} 

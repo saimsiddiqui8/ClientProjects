@@ -1,0 +1,22 @@
+#smallSection1Para{
+    font-family: "Raleway", sans-serif;
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+#smallSection1Img{
+    width: 80%;
+}
+#section2{
+    background-color: #000000B3;
+    color: #fff;
+}
+
+@media only screen and (max-width: 540px){
+	#smallSection1Para{
+        padding: 0 !important;
+    }
+    .fontSizeResponsive{
+        font-size: 18px !important;
+    }
+}

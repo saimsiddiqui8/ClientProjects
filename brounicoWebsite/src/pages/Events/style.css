@@ -1,0 +1,17 @@
+#mainHeadingConferences {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#headingContentConferences {
+    color: #acacac;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+
+@media only screen and (max-width: 768px){
+	#footerWidth{
+        width: 100% !important;
+    }
+}

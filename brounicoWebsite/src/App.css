@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+* {
+  
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.dropdown-toggle::after {
+  display: none !important; 
+}
+
+/* 
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  background-color: #feb414 !important;
+  border-color: #feb414 !important;
+  border-radius: 5rem !important;
+}
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-item.show .nav-link:hover {
+  background-color: #feb414 !important;
+  border-color: #feb414 !important;
+  border-radius: 5rem !important;
+} */
+
+#text1 {
+  padding-right: 0 !important;
+}
+
+#head {
+  padding-right: 0 !important;
+}
+
+.navbar-toggler {
+  background-color: #feb414 !important;
+  border-radius: 10px !important;
+  color: #feb414 !important;
+}
+.banner{
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+#mainSection {
+  background-image: url("./assets/screen.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* .linkz {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px !important;
+} */
+
+.dropdown-menu {
+  --bs-dropdown-bg: #212529 !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .topNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  #text1 {
+    padding-right: 2rem !important;
+  }
+
+  #head {
+    padding-right: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .topNav {
+    font-size: 0.79em !important;
+  }
+}

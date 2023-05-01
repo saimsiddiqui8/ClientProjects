@@ -1,0 +1,22 @@
+#master-menu {
+    border-bottom: 1px solid #232323;
+    background-color: #232323 !important;
+    transition: background 0.6s;
+    background-position: center -200%;
+    font-family: soleil, "Lucida Grande", "Lucida Sans Unicode", "Nimbus Sans L", Arial, sans-serif;
+}
+
+.link {
+    color: #00afad !important;
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.link:hover{
+    color: #d42222 !important;
+    transition: 300ms;
+}
+#dropdown:hover{
+    background-color: #454545 !important;
+}

@@ -1,0 +1,9 @@
+.flairStripArms {
+    border: 0.5px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    .flairStripArms {
+        display: none !important;
+    }
+}

@@ -1,0 +1,11 @@
+#aboutImg{
+    width: 80%;
+}
+
+@media only screen and (max-width: 991px){
+    #aboutImg{
+        width: 70% !important;
+        margin-left: 15rem;
+        background-color: red !important;
+    }
+}

@@ -1,0 +1,113 @@
+#OurCompanyLogo {
+    width: 33% !important;
+    height: auto;
+}
+
+.btnz {
+    background: rgba(0, 80, 79, 0);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: normal;
+    border: 1px solid #ffffff;
+}
+
+.btnz:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transition: 300ms;
+}
+
+#ourCompanyHead {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    font-size: 25.2px;
+}
+
+#ourCompanyPara {
+    font-style: Rale;
+    color: #fff;
+    font-size: 21px !important;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+#ourCompanyBox {
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 850px) {
+    #ourCompanyContainerOne {
+        width: 70% !important;
+    }
+
+    #ourCompanyContainerTwo {
+        width: 80% !important;
+    }
+
+    #ourCompanyHead {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+        font-size: 23px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #OurCompanyLogo{
+        width: 55% !important;
+    }
+    #ourCompanyContainerTwo {
+        width: 100% !important;
+    }
+
+    #ourCompanyPara {
+        font-size: 18px !important;
+        padding-right: 0 !important;
+        padding-left: 1rem !important;
+    }
+
+    #ourCompanyHead {
+        padding-right: 0 !important;
+        padding-left: 1rem !important;
+        font-size: 22px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #OurCompanyLogo{
+        width: 85% !important;
+    }
+    #ourCompanyContainerOne {
+        width: 100% !important;
+    }
+
+    .vertical-timeline-element-subtitle {
+        font-size: 16px !important;
+    }
+
+    #ourCompanyPara {
+        padding-right: 0 !important;
+    }
+
+    #ourCompanyPara {
+        padding-left: 1rem !important;
+    }
+
+    #ourCompanyHead {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        font-size: 20px !important;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+    #ourCompanyImg{
+        width: 90% !important;
+    }
+}

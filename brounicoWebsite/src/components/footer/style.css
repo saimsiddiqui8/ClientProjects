@@ -1,0 +1,28 @@
+#footer{
+    background-color: #232323;
+}
+
+.footerPara{
+    line-height: 1 !important;
+    font-size: 13px;
+    color: #9A9A9A;
+}
+#footerLink{
+    color: white !important;
+    font-size: 14px;
+}
+@media only screen and (max-width: 1058px){
+	#footerWidth{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 993px){
+	#footerWidth{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 558px){
+	#footerWidth{
+        width: 100% !important;
+    }
+}

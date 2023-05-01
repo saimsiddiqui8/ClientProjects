@@ -1,0 +1,43 @@
+/* #playback {
+    background-image: url("../../assets/playback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+#playbackBook {
+    width: 80%;
+    margin-top: 2rem;
+}
+
+#playbackBookPara {
+    margin-top: 3rem !important;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+#events {
+    border-bottom: 1px solid #232323;
+    margin: 40px auto 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: #232323;
+}
+
+@media only screen and (max-width: 1199px) {
+    #playbackBook {
+        width: 70% !important;
+        padding: 0 !important;
+    }
+
+    #playbackBookPara {
+        padding: 0 !important;
+        font-size: 18px !important;
+    }
+}

@@ -1,0 +1,41 @@
+#strategy{
+    background-color: #000000B3;
+}
+
+#strategyBook {
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#strategyBookPara {
+    margin-top: 3rem !important;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+#events{
+    border-bottom: 1px solid #efefef;
+    color: white;
+    margin: 40px auto 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+@media only screen and (max-width: 540px) {
+    #strategyBookPara{
+        text-align: left !important;       
+        font-size: 18px !important;
+    }
+    #strategyBook{
+        width: 80% !important;
+        padding: 0 !important;
+    }
+    #mediaQuery5{
+        padding: 0 !important;
+    }
+}

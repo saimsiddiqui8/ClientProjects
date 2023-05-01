@@ -1,0 +1,52 @@
+#kidscreenBook {
+    width: 80%;
+    margin-top: 2rem;
+}
+#kidscreenBookPara {
+    margin-top: 3rem !important;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+#events{
+    border-bottom: 1px solid #232323;
+    margin: 40px auto 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: #232323;
+}
+
+@media only screen and (max-width: 1199px){
+	#kidcreenCont{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+	.screensBanner{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 580px){
+    #kidcreenCont{
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+    .screensBanner{
+        width: 50% !important;
+    }
+    #kidscreenBookPara{
+        font-size: 18px !important;
+        padding-top: 0 !important;
+    }
+    #kidscreenBook{
+        width: 70% !important;
+        padding-top: 0 !important;
+    }
+    #mediaQuery1{
+        padding-bottom: 0 !important;
+    }
+}
