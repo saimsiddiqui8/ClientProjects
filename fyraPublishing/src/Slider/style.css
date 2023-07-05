@@ -1,0 +1,39 @@
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.mainContainer {
+  margin: 10px;
+
+  width: 100%;
+  height: 7rem;
+}
+
+.mainContainer .container {
+  padding: 40px 0;
+}
+
+.mainContainer .container img {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div h3 {
+  color: white;
+  font-weight: bold;
+}
+
+#sliderIcon{
+  width: 90% !important;
+}
+
+/* @media only screen and (max-width: 680px) {
+  #sliderIcon{
+    width: 90% !important;
+  }
+} */

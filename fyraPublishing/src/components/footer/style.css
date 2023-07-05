@@ -1,0 +1,175 @@
+#footer {
+    background-image: url("../../assets/bannerBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.arrow {
+    color: #feb414 !important;
+}
+
+#footerText {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    font-weight: 500;
+}
+
+.footerAboutUs {
+    color: #feb414 !important;
+}
+
+.terms {
+    font-size: 12px;
+}
+
+#copyRight {
+    font-size: 15px;
+   
+   
+}
+#links {
+    font-size: 30px;
+   
+}
+
+@media only screen and (max-width: 575px) {
+    #iconsLink #links {
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1205px) {
+    .mainContainer .container img {
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #sliderIcon {
+        width: 40% !important;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .mainContainer .container img {
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #sliderIcon {
+        width: 40% !important;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .mainContainer .container img {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+    }
+    #sliderIcon {
+        width: 150% !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo {
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #footerLogoText {
+        margin-left: 2rem !important;
+    }
+
+    .footerBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .footerTopText {
+        margin-left: 0 !important;
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .footerBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .footerTopText {
+        margin-left: 0 !important;
+
+    }
+
+    #mediaQueryTopForFooter {
+        padding-top: 4rem !important;
+    }
+}
+
+
+/* slider */
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.mainContainer {
+    margin: 10px;
+    width: 100%;
+    height: 7rem;
+}
+
+.mainContainer .container {
+    padding: 40px 0;
+}
+
+.mainContainer .container img {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div h3 {
+    color: white;
+    font-weight: bold;
+}
+
+#sliderIcon {
+    width: 35% !important;
+}
+
+/* @media only screen and (max-width: 680px) {
+    #sliderIcon{
+      width: 90% !important;
+    }
+  } */

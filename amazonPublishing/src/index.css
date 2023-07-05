@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: 5 !important;
+}
+
+.row {
+  --mdb-gutter-x: 0.5rem !important;
+}

@@ -1,0 +1,46 @@
+#bookImg{
+    width: 99% !important;
+    margin-top: 4rem !important;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    #startProjectContent {
+        margin-left: 0rem !important;
+        margin-top: 0rem !important;
+        padding-top: 0rem !important;
+    }
+    #bookImg{
+        width: 110% !important;
+        margin-top: 6rem !important;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    #bookImg{
+        width: 80% !important;
+        margin-top: 2rem !important;
+    }
+    #selfPublishingHeading{
+        margin-top: 0 !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #bookImg{
+        width: 100% !important;
+        /* margin-left: 0.5rem !important; */
+    }
+    #startProjectContent{
+        margin-left: 0.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #centerBtnMediaQuery{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}

@@ -1,0 +1,230 @@
+#banner {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 10%, rgba(249,159,32,1) 80%);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    /* max-width: 100% !important;
+    height: auto !important; */
+}
+/* placeholder color */
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white !important;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white !important;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white !important;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: white !important;
+}
+
+/* styling form input */
+.input {
+    background-color: #404040;
+}
+
+#trustedPartners{
+    margin-bottom: 1rem !important;
+    width: 10rem;
+}
+#trustedPartners:hover{
+    width: 12rem !important;
+    transition: 500ms;
+}
+.formControl{
+    margin-top: 0.65rem;
+}
+#form {
+    /* margin-top: 5rem !important; */
+    width: 75% !important;
+    background-color: #feb414 !important;
+   
+}
+.form-control{
+    padding: 0 !important;
+    margin: 0 !important; 
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+    border-bottom: 3px solid #ffffff !important;
+}
+/* main heading styling  */
+#head {
+    color: #f8b830;
+    font-size: 29px;
+    font-weight: 600 !important;
+    padding-top: 8PX;
+    PADDING-BOTTOM: 10PX;
+    padding-right: 95px;
+    letter-spacing: 1.3px;
+}
+
+#text1 {
+    font-size: 18px;
+    font-weight: 400 !important;
+    padding-bottom: 20px;
+    padding-right: 160px;
+    line-height: 28.5px !important;
+}
+
+/* call me btn  */
+#btn2 {
+    background-color: #404040;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+
+    color: #f8b830 !important;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1295px) {
+
+    #inlineForm {
+      margin-top: 3rem !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+
+    #mainContext {
+        margin-left: 2rem !important;
+    }
+    #bookMockup1{
+        margin-top: 3rem !important;
+        width: 150% !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    #inlineForm {
+       width: 100% !important;
+    }
+}
+@media only screen and (max-width: 932px) {
+
+    #trustedPartnerHide {
+       display: none !important;
+    }
+}
+@media only screen and (max-width: 1111px) {
+
+   
+    #bookMockup1{
+        margin-left: 0!important;
+        padding-left: 0!important;
+        margin-right: 0!important;
+        padding-right: 0!important;
+        width: 130% !important;
+    }
+
+}
+@media only screen and (max-width: 999px) {
+
+   
+    #bookMockup1{
+        margin-left: 0!important;
+        padding-left: 0!important;
+        margin-right: 0!important;
+        padding-right: 0!important;
+        width: 130% !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .col-lg-6 {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    /* #form {
+        margin-left: 5rem !important;
+        width: 100% !important;
+    } */
+    #trustedTwo{
+        padding-left: 3rem !important;
+        padding-top: 1rem !important;
+    }
+}
+
+/* @media only screen and (max-width: 1033px) {
+    #form {
+        margin-left: 2rem !important;
+    }
+} */
+
+@media only screen and (max-width: 996px) {
+    #trustedTwo{
+        padding-left: 0rem !important;
+        padding-top: 0rem !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    #lineForm{
+        display: block !important;
+        flex-direction: column !important;
+        width: 95% !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .inlineFormWidth{
+        width: 99% !important;
+        margin-left: 3px !important;
+    }
+}
+@media only screen and (max-width: 750px) {
+    #bookMockup1{
+        margin-top: 0 !important;
+    }
+}
+@media only screen and (max-width: 597px) {
+    #bookMockup1{
+        margin-left: 0!important;
+        padding-left: 0!important;
+        margin-right: 0!important;
+        padding-right: 0!important;
+        width: 99% !important;
+    }
+    #form{
+        width: 90% !important;
+    }
+    #mainContext{
+        margin-left: 0.5rem !important;
+        padding-right: 0rem !important;
+    }
+}
+@media only screen and (max-width: 460px) {
+    #LiveChat {
+        margin-top: 1rem !important;
+        width: 63.5% !important;
+    }
+}
+@media only screen and (max-width: 420px) {
+    #LiveChat {
+        margin-top: 1rem !important;
+        margin-left: 1rem !important;
+        
+        width: 63.5% !important;
+    }
+}
+@media only screen and (max-width: 385px) {
+    #LiveChat {
+        margin-top: 1rem !important;
+        margin-left: 1.5rem !important;
+        
+        width: 63.5% !important;
+    }
+}

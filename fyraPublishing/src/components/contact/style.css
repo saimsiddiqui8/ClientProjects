@@ -1,0 +1,139 @@
+#contact {
+    background-image: url("../../assets/bannerBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100% !important;
+    height: auto !important;
+}
+#contactDiv {
+    /* contactBox */
+    /* background-image: url("../../assets/contactBox.png"); */
+    background-color: #feb414 !important;
+    color: #000 !important;
+    position: relative;
+    top: 10rem;
+}
+.contactBtn{
+    margin-top: 1rem !important;
+}
+
+
+#contactInput {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#contactTasks{
+    border-radius: 0.4rem;
+}
+
+/* #contactTasks:hover{
+    background-color: #000;
+    color: #feb414 !important;
+    transition: 500ms;
+} */
+#contactWidthMediaQuery{
+    width: 35%;
+}
+@media only screen and (max-width: 1460px) {
+    #contactTasks{
+        padding-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 1242px) {
+    #contactWidthMediaQuery{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 1286px) {
+    #contactTasks{
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 1092px) {
+    #contactWidthMediaQuery{
+        width: 41%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #s{
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    #contactWidthMediaQuery{
+        display: flex;
+        justify-content: center;
+        width: 25%;
+    }
+    #contactTasks{
+        margin-right: 2rem !important;
+        margin-left: 2rem !important;
+    }
+}
+@media only screen and (max-width: 985px) {
+    #contactTasks{
+        margin-right: 1rem !important;
+        margin-left: 1rem !important;
+    }
+}
+@media only screen and (max-width: 888px) {
+    #contactWidthMediaQuery{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 25%;
+        padding-left: 5rem !important;
+    }
+    #contactTasks{
+        margin-right: 1rem !important;
+        margin-left: 1rem !important;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .textBox {
+        margin-top: 0 !important;
+    }
+    #bookLaunch{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #contactDiv{
+        width: 95% !important;
+    }
+    #contact2{
+        width: 100% !important;
+    }
+    .contactBtn{
+        padding: 0rem !important;
+        margin: 0rem !important;
+    }
+}
+
+
+@media only screen and (max-width: 465px) {
+    #contactWidthMediaQuery{
+        padding-left: 4rem !important;
+    }
+    #contactTasks{
+        margin-right: 0rem !important;
+        margin-left: 0rem !important;
+    }
+}
+@media only screen and (max-width: 430px) {
+    #contactWidthMediaQuery{
+        padding-left: 2rem !important;
+    }
+}
+@media only screen and (max-width: 393px) {
+    #contactWidthMediaQuery{
+        padding-left: 1rem !important;
+    }
+}
+@media only screen and (max-width: 380px) {
+    #contactWidthMediaQuery{
+        padding-left: 0rem !important;
+    }
+}

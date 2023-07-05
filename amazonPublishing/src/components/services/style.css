@@ -1,0 +1,183 @@
+#services {
+    background-image: url("../../assets/bannerBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+#testimonial1{
+    filter: drop-shadow(1px 1px 30px 0.5px #feb414);
+}
+
+
+.nav-link {
+    color: white !important;
+}
+#serviceText{
+    margin-left: 1rem !important;
+}
+.nav-tabs {
+
+    --bs-nav-tabs-border-width: 0px !important;
+    --bs-nav-tabs-link-active-bg: #feb414 !important;
+    border-radius: 2rem !important;
+
+    --bs-nav-tabs-border-radius: 0.5rem !important;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+    width: 90% !important;
+}
+#testimonial1 {
+    width: 120% !important;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 1200px) and (min-width: 998px) {
+    #testimonial1 {
+        width: 150% !important;
+        margin-right: 20rem !important;
+    }
+#serviceText{
+    margin-top: 0 !important;
+}
+    #servicePara {
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+
+    #testimonial1Box {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 1286px) {
+    #testimonial1 {
+        margin-top: 4rem !important;
+        width: 120% !important;
+    }
+}
+@media only screen and (max-width: 1201px) {
+    #testimonial1 {
+        margin-top: 4rem !important;
+        width: 120% !important;
+    }
+    #serviceText{
+        margin-left: 1rem !important;
+    }
+}
+@media only screen and (max-width: 1225px) {
+
+    #serviceText{
+        margin-left: 1rem !important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    #servicesImg{
+        width: 85% !important;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    #testimonial1 {
+        margin-top: 5rem !important;
+        width: 130% !important;
+    }
+    #serviceText{
+        margin-left: 3rem !important;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    #testimonial1 {
+        margin-top: 5rem !important;
+        width:100% !important;
+    }
+    #serviceText{
+        margin-left: 0rem !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    #testimonial1 {
+        margin: 0rem !important;
+        width:50% !important;
+    }
+    #servicesImg{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+@media only screen and (max-width: 885px) {
+    #servicesBoxTwo {
+        width: 99% !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #serviceBox {
+        width: auto !important;
+    }
+
+    #servicesBoxTwo {
+        width: 100% !important;
+    }
+
+    #servicesBoxThree {
+        width: 100% !important;
+        margin-left: 1rem !important;
+    }
+
+    #serviceBtnBox {
+        margin-left: 2rem !important;
+    }
+
+    #servicesImg {
+        margin: 0 !important;
+        margin-left: 2rem !important;
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #ServiceCallNowBtn{
+        margin-top: 2rem !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    #serviceBtnBox{
+        margin-left: 0 !important; 
+        margin-right: 0 !important; 
+        padding-left: 0 !important;
+        padding-right: 0 !important; 
+    }
+    #servicesBoxThree {
+        width: 105% !important;
+        margin-left: 0rem !important;
+    }
+}
+@media only screen and (max-width: 590px) {
+    #testimonial1{
+        width: 100% !important;
+    }
+    #serviceText{
+        margin-top: 0rem !important;
+        padding-top: 0prem !important;
+    }
+}
+@media only screen and (max-width: 415px) {
+    #lc{
+        margin-top: 1rem !important;
+        width: 57% !important;
+        margin-left: 1rem !important;
+    }
+}
+@media only screen and (max-width: 370px) {
+    #lc{
+        margin-top: 1rem !important;
+        width: 57% !important;
+        margin-left: 2rem !important;
+    }
+}

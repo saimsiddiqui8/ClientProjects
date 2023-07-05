@@ -1,0 +1,21 @@
+#servicesIconBg{
+        background-image: url("../../assets/bannerBg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        max-width: 100% !important;
+        height: auto !important;
+}
+#icons{
+    box-shadow: 0.5px 0.5px 20px 0.5px #d4af5d;
+}
+.blackDiv:hover{
+    background-color: #feb414 !important;
+    color: black !important;
+    transition: 700ms;
+}
+.goldenDiv:hover{
+    background-color: #000000 !important;
+    color: #feb414 !important;
+    transition: 700ms;
+}

@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: left !important;
+  color: #feb414 !important;
+}
+
+h3 {
+  text-align: left !important;
+  color: #feb414 !important;
+}
+
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  background-color: #feb414 !important;
+  border-color: #feb414 !important;
+  border-radius: 5rem !important;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-item.show .nav-link:hover {
+  background-color: #feb414 !important;
+  border-color: #feb414 !important;
+  border-radius: 5rem !important;
+}
+
+#dropDownItem:hover {
+  font-weight: 500;
+  font-size: 15px;
+  opacity: 100;
+  color: black !important;
+  background-color: #feb414 !important;
+  transition: 700ms;
+}
+
+#text1 {
+  padding-right: 0 !important;
+}
+
+#head {
+  padding-right: 0 !important;
+}
+
+.navbar-toggler {
+  background-color: #feb414 !important;
+  border-radius: 10px !important;
+  color: #feb414 !important;
+}
+
+.linkz {
+  font-size: 21px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border-radius: 10px;
+}
+
+.linkz:hover {
+  color: black !important;
+
+}
+
+.shadowDown {
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, #feb414 350%);
+
+}
+
+.linkz:hover {
+  font-size: 22px !important;
+  background-color: #feb414;
+  transition: 700ms;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+user agent stylesheet div {
+  display: block;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto";
+  color: #d14e4e;
+  letter-spacing: 1px;
+}
+
+.dropdown-menu {
+  --bs-dropdown-bg: #212529 !important;
+}
+
+#hoverEffect:hover {
+  color: #feb414 !important;
+  font-size: 17px !important;
+  transition: 400ms;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.linkOpacity{
+  opacity: .75 !important;
+}
+@media only screen and (max-width: 992px) {
+  .topNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+  }
+  
+  .linkOpacity{
+    opacity: 1 !important;
+  }
+  .dropdown-menu {
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  #text1 {
+    padding-right: 2rem !important;
+  }
+
+  p {
+    font-size: 13.5px !important;
+  }
+
+  #head {
+    padding-right: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .topNav {
+    font-size: 0.79em !important;
+  }
+}

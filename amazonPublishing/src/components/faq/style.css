@@ -1,0 +1,48 @@
+.accordion-button{
+    background-color: #E6A804 !important;
+}
+.accordion-item:first-of-type .accordion-button{
+    border-radius: none !important;
+    border-top-left-radius: none !important;
+}
+
+@media only screen and (max-width: 1300px) {
+    #faqQuestAns {
+        width: 60% !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #faqQuestAns {
+        width: 70% !important;
+    }
+}
+@media only screen and (max-width: 950px) {
+    #faqQuestAns {
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #faqQuestAns {
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #faqQuestAns {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 508px) {
+    .partn{
+        width: 120px !important;
+    }
+}
+@media only screen and (max-width: 417px) {
+    .partn{
+        width: 100px !important;
+    }
+}
+@media only screen and (max-width: 357px) {
+    .partn{
+        width: 150px !important;
+    }
+}

@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap"
-import logo from "../../assets/logo-big.png"
+import logo from "../../assets/logo.png"
 import brand1 from "../../assets/brand1.png"
 import brand2 from "../../assets/brand2.png"
 import brand3 from "../../assets/brand3.png"
@@ -13,7 +13,7 @@ const Banner = () => {
     return (
         <>
             <div className="overflow-hidden">
-                <div className="my-4 py-5 text-center" id="wrapper">
+                <div className="my-4 pt-5 text-center" id="wrapper">
                     <img src={logo} alt="" id="img" />
                 </div>
                 <div className="text-center container px-5 w-75 mb-5" id="bannerHeading">

@@ -19,7 +19,7 @@ const NavBar = () => {
         <>
             <Navbar id="master-menu" bg="light" expand="lg" fixed="top" >
                 <div className='container'>
-                    <Navbar.Brand as={Link} to="/"><img src={logo} alt="logo" /></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"><img src={logo} width={160} alt="logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="m-auto pe-5">
