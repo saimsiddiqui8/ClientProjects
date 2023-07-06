@@ -64,11 +64,11 @@ const Footer = () => {
                         </Col>
                     </Row>
                 </div> */}
-                    <div className="text-white container">
+                    <div className="text-white container pt-5">
                         <Row className="pt-4">
                             <Col lg={5} className="">
-                                <div id="footerLogoText">
-                                    <img src={logo} alt="logo" width={200} height={100} />
+                                <div id="footerLogoText" >
+                                    <img src={logo} alt="logo" width={190} className="mt-3 mb-4" height={50} />
                                     <p id="footerText">Fyra Publishing is a trailblazer in the world of self-publishing. We help facilitate the self-publishing and marketing process on behalf of independent authors and help them sell their books as e-books, audiobooks, hardcover and paperback books worldwide.</p>
                                 </div>
                             </Col>

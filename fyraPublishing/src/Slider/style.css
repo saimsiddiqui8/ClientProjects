@@ -28,12 +28,27 @@ div h3 {
   font-weight: bold;
 }
 
-#sliderIcon{
-  width: 90% !important;
-}
-
-/* @media only screen and (max-width: 680px) {
-  #sliderIcon{
-    width: 90% !important;
-  }
+/* .sliderIcon{
+  width: 15% !important;
 } */
+
+@media only screen and (max-width: 776px) {
+  .sliderIcon{
+    width: 200px !important;
+  }
+}
+@media only screen and (max-width: 702px) {
+  .sliderIcon{
+    width: 120px !important;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .sliderIcon{
+    width: 80px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .sliderIcon{
+    width: 60px !important;
+  }
+}

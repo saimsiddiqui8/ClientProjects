@@ -37,7 +37,7 @@ const Banner = ({ heading, paragraph, subHeading }) => {
                         <ToastContainer theme="dark" closeOnClick autoClose={2000} position="top-center" />
                         <Container>
                             <Row>
-                                <Col lg={6} sm={10} className='mt-5 pt-5' id="mainContext">
+                                <Col lg={6} md={6} sm={10} className='mt-5 pt-5' id="mainContext">
                                     <h1 id="headingBanner">Self-Publishing with <span className='fyraBold'>FYRA</span> SIMPLIFIED!</h1>
                                     {/* <h4 className="text-warning">{subHeading}</h4>
                                 <p className=' text-light' id="text1">
@@ -46,16 +46,16 @@ const Banner = ({ heading, paragraph, subHeading }) => {
                                     <div>
                                         <Row className="pb-5 mt-5 pt-3" id="m">
                                             <Form id="lineForm" className="d-flex flex-row " onSubmit={sendEmail}>
-                                                <Col lg={3} md={6} sm={12} className="inlineFormWidth mt-4 mx-1">
+                                                <Col lg={3} md={6} sm={12} className="inlineFormWidth mt-4 mx-2">
                                                     <Form.Control className="formControl pb-2 text-light" name="name" required placeholder="Name" />
                                                 </Col>
-                                                <Col lg={3} md={6} sm={12} className="inlineFormWidth mt-4 mx-1">
+                                                <Col lg={3} md={6} sm={12} className="inlineFormWidth mt-4 mx-2">
                                                     <Form.Control className="formControl pb-2 text-light" name="email" required placeholder="Email" />
                                                 </Col>
-                                                <Col lg={3} md={6} sm={12} className="inlineFormWidth mt-4 mx-1">
+                                                <Col lg={3} md={6} sm={12} className="inlineFormWidth mt-4 mx-2">
                                                     <Form.Control className="formControl pb-2 text-light" name="contact" required placeholder="Phone Number" />
                                                 </Col>
-                                                <Col lg={3} md={6} sm={12} className="inlineFormWidth mt-4 mx-1">
+                                                <Col lg={3} md={6} sm={12} className="inlineFormWidth mt-4 mx-2">
                                                     <span className="w100">
                                                         <button id='submitBtn' className=' pt-3 pb-2'>Submit</button>
                                                     </span>
@@ -64,7 +64,7 @@ const Banner = ({ heading, paragraph, subHeading }) => {
                                         </Row>
                                     </div>
                                 </Col>
-                                <Col lg={5} sm={10} className=' mediaQ1'>
+                                <Col lg={5} md={6} sm={10} className=' mediaQ1'>
                                     <div className="mt-1 text-center mediaQ2">
                                         <img src={mockup1}  id="bookMockup55" className="text-center ps-5 ms-5" style={{ width: "100%" }} alt="mockup" />
                                     </div>

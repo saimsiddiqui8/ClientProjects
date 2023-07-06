@@ -31,7 +31,7 @@ function NavBar() {
         <Container>
           <Navbar.Brand href="#home">
             <Link to="/">
-              <img src={logo} alt="logo" width={270} height={160} />
+              <img src={logo} alt="logo" width={190} height={50} />
 
             </Link>
           </Navbar.Brand>
@@ -40,8 +40,8 @@ function NavBar() {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto" style={{ fontSize: "1.5rem" }}>
-              <Nav.Link as={Link} eventKey="1" to="/" className='text-white linkz mx-3 px-3'>Home</Nav.Link>
-              <Nav.Link as={Link} eventKey="2" to="/aboutus" className='text-white linkz mx-3 px-3'>About Us</Nav.Link>
+              <Nav.Link as={Link} eventKey="1" to="/" className='text-white linkz mx-3 px-2'>Home</Nav.Link>
+              <Nav.Link as={Link} eventKey="2" to="/aboutus" className='text-white linkz mx-3 px-2'>About Us</Nav.Link>
               <div className="linkz">
                 <NavDropdown
                   className='mx-3'
@@ -60,9 +60,9 @@ function NavBar() {
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
                 </NavDropdown>
               </div>
-              <Nav.Link as={Link} eventKey="3" to="/portfolio" className='text-white linkz mx-3 px-3'>Portfolio</Nav.Link>
-              {/* <Nav.Link as={Link} eventKey="4" to="/testimonials" className='text-white linkz mx-3 px-3'>Testimonials</Nav.Link> */}
-              <Nav.Link as={Link} eventKey="5" to="/contactus" className='text-white linkz mx-3 px-3'>Contact Us</Nav.Link>
+              <Nav.Link as={Link} eventKey="3" to="/portfolio" className='text-white linkz mx-3 px-2'>Portfolio</Nav.Link>
+              {/* <Nav.Link as={Link} eventKey="4" to="/testimonials" className='text-white linkz mx-3 px-2'>Testimonials</Nav.Link> */}
+              <Nav.Link as={Link} eventKey="5" to="/contactus" className='text-white linkz mx-3 px-2'>Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

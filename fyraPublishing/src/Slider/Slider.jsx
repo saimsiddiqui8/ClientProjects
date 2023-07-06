@@ -23,26 +23,26 @@ class Slider extends Component {
       cssEase: "linear"
     };
     return (
-      <div className="mainContainer">
+      <div className="mainContainer ">
 
         <Slider1 {...settings}>
           <div className="container">
-            <img src={trusted1} id="sliderIcon"/>
+            <img src={trusted1} width={400} className="sliderIcon  pb-4"/>
           </div>
           <div className="container">
-            <img src={trusted2} id="sliderIcon"/>
+            <img src={trusted2} width={400} className="sliderIcon  pb-4"/>
           </div>
           <div className="container">
-            <img src={trusted3} id="sliderIcon"/>
+            <img src={trusted3} width={400} className="sliderIcon  pb-4"/>
           </div>
           <div className="container">
-            <img src={trusted4} id="sliderIcon"/>
+            <img src={trusted4} width={400} className="sliderIcon  pb-4"/>
           </div>
           <div className="container">
-            <img src={trusted5} id="sliderIcon"/>
+            <img src={trusted5} width={400} className="sliderIcon  pb-4"/>
           </div>
           <div className="container">
-            <img src={trusted6} id="sliderIcon"/>
+            <img src={trusted6} width={400} className="sliderIcon  pb-4"/>
           </div>
           </Slider1 >
 
