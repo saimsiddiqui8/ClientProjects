@@ -3,13 +3,26 @@ import Card from 'react-bootstrap/Card';
 import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 import Tab from 'react-bootstrap/Tab';
+import Form from 'react-bootstrap/Form';
 import Tabs from 'react-bootstrap/Tabs';
 import { TbMathGreater } from "react-icons/tb"
-import { Col, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const notify = () => toast.success("Message sent!");
+  const notifyError = () => toast.error("Error!");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs.sendForm("service_hdz9rko", "template_hrcknca", e.target, "Uu5KYI12-abXQGk7m").then(res => {
+      const inputField = document.getElementById("form");
+      inputField.reset();
+      notify();
+    }).catch(() => {
+      notifyError();
+    })
+  };
   return (
     <>
       <Head>
@@ -20,7 +33,37 @@ export default function Home() {
       </Head>
       <main>
         <div id={styles.hero}>
-          dsfsdfsd
+          <Container className='w-75 py-5'>
+            <Row className='py-5 mb-5'>
+              <Col lg={6} md={6} sm={12} >
+                <div>
+                  <h3 className='text-white' style={{ fontWeight: 1000 }}>Best Real Estate Agency In Dubai</h3>
+                </div>
+              </Col>
+              <Col lg={6} md={6} sm={12} className='text-center'>
+                <Row className='pb-5 text-end'>
+                  <Form className='container w-75 px-4 ' id='form' onSubmit={handleSubmit}>
+                    <h3 className='text-center pt-4 pb-2 text-light fw-bold'>REGISTER YOUR INTEREST</h3>
+                    <Form.Group className="mb-3 pt-3" controlId="formBasicText">
+                      <Form.Control className="text-light input" name="name" required type="text" placeholder="Name" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                      <Form.Control className="input text-light" name="email" required type="email" placeholder="Email" />
+                    </Form.Group>
+                    <Form.Group className="mb-2" controlId="formBasicText">
+                      <Form.Control className="input text-light" name="contact" type="text" placeholder="Contact number" required />
+                    </Form.Group>
+                    {/* <Form.Group className="mb-2">
+                      <Form.Control className="input text-light" name="message" as="textarea" placeholder="Message" required rows={4} />
+                    </Form.Group> */}
+                    <Button style={{ fontWeight: "600" }} value="send" type="submit" className="mb-4 w-100 bg-dark  text-light hbtn2 hb-fill-right2">
+                      Submit
+                    </Button>
+                  </Form>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
         </div>
 
         <section className='container w-75 text-white text-center'>
@@ -362,7 +405,7 @@ export default function Home() {
                     <img src='/images/service1.png' width={90} alt='service' />
                   </div>
                 </div>
-                <h6  className='fw-bold mt-3'>
+                <h6 className='fw-bold mt-3'>
                   Property Management
                 </h6>
                 <p className="boxesHeading">Learn More  <TbMathGreater color='#4EC0B0' /></p>
@@ -376,7 +419,7 @@ export default function Home() {
                     <img src='/images/service2.png' width={90} alt='service' />
                   </div>
                 </div>
-                <h6  className='fw-bold mt-3'>
+                <h6 className='fw-bold mt-3'>
                   Mortgage Advisory
                 </h6>
                 <p className="boxesHeading">Learn More  <TbMathGreater color='#4EC0B0' /></p>
@@ -390,7 +433,7 @@ export default function Home() {
                     <img src='/images/service3.png' width={90} alt='service' />
                   </div>
                 </div>
-                <h6  className='fw-bold mt-3'>
+                <h6 className='fw-bold mt-3'>
                   Property Investment
                 </h6>
                 <p className="boxesHeading">Learn More  <TbMathGreater color='#4EC0B0' /></p>
@@ -404,7 +447,7 @@ export default function Home() {
                     <img src='/images/service4.png' width={90} alt='service' />
                   </div>
                 </div>
-                <h6  className='fw-bold mt-3'>
+                <h6 className='fw-bold mt-3'>
                   Property Valuation
                 </h6>
                 <p className="boxesHeading">Learn More  <TbMathGreater color='#4EC0B0' /></p>

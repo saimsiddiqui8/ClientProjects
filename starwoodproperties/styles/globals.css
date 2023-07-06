@@ -484,3 +484,27 @@
     padding-left: 5rem !important;
   }
 }
+
+/* form  */
+#form{
+  background-color: #3E3E3E;
+  border-radius: 5px;
+  margin-left: 10rem !important;
+}
+
+@media only screen and (max-width: 898px) {
+   #form {
+    margin-left: 8rem !important;
+
+  }
+
+}
+@media only screen and (max-width: 767px) {
+   #form {
+    margin-top: 50px;
+    margin-left: 0rem !important;
+    width: 100% !important;
+
+  }
+
+}
