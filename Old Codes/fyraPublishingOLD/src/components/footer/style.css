@@ -1,0 +1,68 @@
+#footer {
+    background-image: url("../../assets/footer.jpg");
+    /* height: 90vh; */
+    object-fit: cover !important;
+    /* background-repeat: no-repeat;
+    background-size: auto; */
+    /* background-position: center; */
+}
+
+#footerText {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    font-weight: 500;
+}
+
+.terms {
+    font-size: 12px;
+}
+
+#copyRight {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1300px) {
+    /* #faqQuestAns {
+        width: 60% !important;
+    } */
+}
+@media only screen and (max-width: 1000px) {
+    .logo {
+        margin-top: 0 !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #footerLogoText {
+        margin-left: 2rem !important;
+    }
+    .footerBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .footerTopText{
+        margin-left: 0 !important;
+
+    }
+}
+@media only screen and (max-width: 800px) {
+    .footerBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .footerTopText{
+        margin-left: 0 !important;
+
+    }
+    #footerBox{
+        padding-left: 5rem !important;
+    }
+}

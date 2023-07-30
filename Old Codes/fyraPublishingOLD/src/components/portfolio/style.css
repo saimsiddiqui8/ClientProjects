@@ -1,0 +1,16 @@
+.slider-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-image {
+    width: 15rem;
+    height: 25rem;
+    object-fit: cover;
+  }
+  
+  .selected-image {
+    width: 150px;
+    height: 150px;
+  }

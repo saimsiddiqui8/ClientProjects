@@ -1,0 +1,20 @@
+@media only screen and (max-width: 800px) {
+    #testUl {
+        margin: 0 !important;
+    }
+    #testImg{
+        margin-left: 3rem !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    #testImg{
+        margin-left: 1rem !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+
+    #testImg{
+        margin-left: 0rem !important;
+    }
+}

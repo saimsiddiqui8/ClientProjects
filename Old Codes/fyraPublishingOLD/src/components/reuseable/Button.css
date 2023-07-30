@@ -1,0 +1,16 @@
+.btn{
+    background-color: #E6A804 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-radius: 2px !important;
+    color: black;
+    font-weight: 600 !important;
+}
+#btn2{
+    background-color: #000 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-radius: 2px !important;
+    color: #E6A804;
+    font-weight: 600 !important;
+}

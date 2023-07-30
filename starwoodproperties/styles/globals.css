@@ -8,13 +8,36 @@
 
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff !important;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
 /* NAVBAR CSS */
 .navBar {
   background-color: #000 !important;
 }
 
+#adminContainer {
+  background-color: #DDDDDD;
+}
+
 .linkz {
   font-weight: 600;
+}
+
+p {
+  margin-bottom: 0rem !important;
 }
 
 .aboutImg1 {
@@ -85,6 +108,10 @@
   z-index: 99;
 }
 
+#cardImg {
+  width: 50%;
+}
+
 .testimonial {
   min-height: 375px;
   position: relative;
@@ -98,6 +125,52 @@
 #testimonial4 .carousel-inner:hover {
   cursor: -moz-grab;
   cursor: -webkit-grab;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.carousel .slide img {
+  width: 100%;
+  /* height: auto; */
+}
+
+.slider-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.slider-content-two {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.btn-stylish {
+  background: #fff;
+  color: #222 !important;
+  border: solid 2px #222;
+  text-transform: capitalize;
+  font-size: 16px;
+  border-radius: 10rem;
+  font-weight: 600;
+  transition: 400ms;
+  padding: 0.5rem 3.25rem;
+}
+
+.btn-stylish:hover {
+  border: solid 2px #fff;
+  background: #000;
+  color: #fff !important;
+
 }
 
 #testimonial4 .carousel-inner:active {
@@ -346,6 +419,7 @@
   object-fit: cover !important;
 } */
 
+
 #footerText {
   font-size: 16px;
   line-height: 1.5;
@@ -363,15 +437,181 @@
   font-size: 12px;
 }
 
-@media only screen and (max-width: 1300px) {
-  /* #faqQuestAns {
-      width: 60% !important;
-  } */
+@media only screen and (max-width: 1280px) {
+  .slider-content-two {
+    top: 35%;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
   .logo {
     margin-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1105px) {
+  .slider-content {
+    position: absolute;
+    top: 60% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+  }
+
+  #blog-container {
+    width: 100% !important;
+  }
+
+  .cardContainer {
+    width: 100% !important;
+  }
+
+  .slider-container {
+    height: 150% !important;
+  }
+
+  .slider-content-two {
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .slider-content {
+    position: absolute;
+    top: 65% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+  }
+
+  #form {
+    height: 360px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #registerYourInterest {
+    font-size: 20px !important;
+  }
+
+  #form {
+    height: 300px !important;
+  }
+
+  .formControl {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 862px) {
+  #registerYourInterest {
+    font-size: 15px !important;
+  }
+
+  #form {
+    height: 300px !important;
+  }
+
+  .formControl {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  #hideTextOnMob {
+    display: none;
+  }
+
+  #registerYourInterest {
+    font-size: 14px !important;
+  }
+
+  .container {
+    width: 95% !important;
+    overflow: hidden !important;
+  }
+
+  #form {
+    height: 265px !important;
+    width: 100% !important;
+  }
+
+  .formControl {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 743px) {
+  #hideTextOnMob {
+    display: none;
+  }
+
+  #registerYourInterest {
+    display: none;
+  }
+
+  #form {
+    height: 205px !important;
+    width: 100% !important;
+  }
+
+  .formControl {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #hideTextOnMob {
+    display: none;
+  }
+
+  #registerYourInterest {
+    display: none;
+  }
+
+  #form {
+    height: 180px !important;
+    width: 100% !important;
+  }
+
+  .formControl {
+    font-size: 8px !important;
+  }
+}
+
+.dropdown-item {
+  transition: 500ms,
+}
+
+.dropdown-item:hover {
+  background-color: black;
+  font-weight: 500;
+  font-family: 17px !important;
+  color: white;
+}
+
+@media only screen and (max-width: 485px) {
+  #hideTextOnMob {
+    display: none;
+  }
+
+  #registerYourInterest {
+    display: none;
+  }
+
+  #form {
+    height: 170px !important;
+    width: 100% !important;
+  }
+
+  .formControl {
+    font-size: 7px !important;
+  }
+
+  #formBtn {
+    font-size: 15px !important;
   }
 }
 
@@ -399,7 +639,7 @@
 }
 
 .boxesHeading {
-  color: "#4EC0B0"!important;
+  color: "#4EC0B0" !important;
 }
 
 .bottomLeftText {
@@ -439,6 +679,10 @@
 
 .fw-bold1 {
   font-weight: 1000 !important;
+}
+
+.bgColor {
+  background-color: #f1f1f1 !important;
 }
 
 .tabShade {
@@ -485,26 +729,145 @@
   }
 }
 
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.495em;
+  content: "";
+  border-top: 0.45em solid white;
+  border-right: 0.4em solid transparent;
+  border-bottom: 0;
+  border-left: 0.4em solid transparent;
+}
+
 /* form  */
-#form{
+#form {
   background-color: #3E3E3E;
   border-radius: 5px;
   margin-left: 10rem !important;
 }
 
 @media only screen and (max-width: 898px) {
-   #form {
+  #form {
     margin-left: 8rem !important;
 
   }
 
 }
+
 @media only screen and (max-width: 767px) {
-   #form {
+  #form {
     margin-top: 50px;
     margin-left: 0rem !important;
     width: 100% !important;
+  }
+}
 
+@media only screen and (max-width: 950px) {
+  #adminContainer {
+    width: 90% !important;
+  }
+}
+
+/* media query for home container and text  */
+@media only screen and (max-width: 1000px) {
+  #mainHomeWrapper {
+    width: 85% !important;
   }
 
+  .loginForm {
+    width: 60% !important;
+  }
+
+}
+
+@media only screen and (max-width: 861px) {
+  #mainHomeWrapper {
+    width: 90% !important;
+  }
+
+  .loginForm {
+    width: 75% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #mainHomeWrapper {
+    width: 95% !important;
+  }
+
+  #adminContainer {
+    width: 100% !important;
+  }
+
+  .container {
+    max-width: 700px !important;
+  }
+}
+
+@media only screen and (max-width: 748px) {
+  #mainHomeWrapper {
+    width: 95% !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  p {
+    font-size: 14px !important;
+  }
+
+  section {
+    width: 100% !important;
+  }
+
+  .adminFormAddProduct {
+    padding: 20px !important;
+  }
+
+  .twoBtns {
+    width: 75% !important;
+  }
+
+  .allCategories {
+    width: 90% !important;
+  }
+
+  .loginForm {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .twoBtns {
+    width: 90% !important;
+  }
+
+  .adminFormAddProduct {
+    padding: 0px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    margin: 0px !important;
+  }
+
+  .adminFormControl {
+    font-size: 14px !important;
+  }
+
+  .adminFormLabel {
+    font-size: 14px !important;
+  }
+
+  .allCategories {
+    width: 100% !important;
+  }
+
+  .loginForm {
+    width: 95% !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .twoBtns {
+    width: 100% !important;
+  }
 }

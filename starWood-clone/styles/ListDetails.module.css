@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1285px) {
+    #imgContainer {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 650px) {
+    #paragraph {
+       font-size: 14px !important;
+    }
+}
